@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About us</title>
+    <link rel="icon" href="http://missingchild.co.ke/wp-content/uploads/2017/11/icon-donate-circle.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+  
+  
+  <style>@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+    header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+}
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      transition: all 4s ease-in-out;
+    }
+    li {
+      float: right;
+    }
+    .don{
+      color:yellow;
+      font-family: 'beyond_the_mountainsregular', sans-serif;
+    }
+    .track{
+      color: white;
+      font-family: 'beyond_the_mountainsregular', sans-serif;
+    }
+    .start{
+      float: left;
+    }
+    .start, .don{
+      font-family: 'beyond_the_mountainsregular', sans-serif;
+    }
+    li a {
+      display: block;
+      color: yellow;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color:yellow;
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    li:last-child {
+      border-right: none;
+    }
+    #about {
+        padding-top: 30px;
+        width:100%;
+        height:600px;
+        background-image: url('img/good.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid black;
+      }
+      .centered {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        color:white;
+        font-size:medium;
+      }
+      h3 {
+          padding-top: 30px;
+        text-align: center;
+        font-weight: bolder;
+      }
+      .buttons{
+        align-content: center;
+        border-radius: 35%;
+        display: flex;
+        justify-content: space-around;
+    
+      }
+      #donate, #contact{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        letter-spacing: 2px;
+        background-color: rgb(47, 0, 255);
+        outline: none;
+        padding: 12.5px 13px;
+        border: none;
+        border-radius: 33px;
+        font-size: 14px;
+      }</style>
+</head>
+<body>
+   
+          
+    <header>
+
+        <a href="indexx.php" class="logo">Zakati</a>
+           <nav class="navigation">
+             <a href="indexx.php">الرئسيسة</a>
+             <a href="about.html">من نحن؟</a>
+             <a href="contact.php">تواصل معنا</a>
+             <a href="admin_login.php"><span class="glyphicon glyphicon-user"></span> admin Login </a>
+          </nav>
+
+  </header>
+  <div class="topbar">
+    <nav class="navigate">
+
+        </nav>
+    </div>
+    <div class="container-fluid aboutcontainer">
+        <div class="row">
+            <div class="col-md-5 aboutleft" id="about"></div>
+            <div class="col-md-7 col-sm-12 aboutcontent">
+                <br>
+                <br>
+                <h3 class="abouthead"><strong></strong>من نحن ؟</h3>
+                <br>
+                <br>
+                <p>زكاتي هو موقع لجمع التبرعات وعرضها حتي يتمكن اي شخص محتاج من اختيار تبرع يساعده ولو قليلا في سد بعض ,احتياجاته نتيجة الأزمات اللإقتصادية التي يعاني منها معظم الشعب اللبناني موقع زكاتي هو منصة يستطيع فيها المتبرع أن يتبرع بأي شيء يريده 
+                    <strong>زكاتي ويب هو مجرد موقع لسد هذه الفجوة</strong> 
+                </p>
+                <p></p>
+                <p></p>
+                <p>
+                </p>
+                <p>انضم إلينا ولنجعل العالم مكانًا أفضل!</p>
+                <br>
+                <br>
+                <div class="buttons">
+                <p><a href="paydetail.php">
+                    <button type="submit" class="btn btn-success donate" id="donate">
+                        Donate
+                    </button>
+                </a></p>
+                <p><a href="contact.html">
+                    <button type="submit" class="btn btn-success contact" id="contact">
+                        Contact us
+                    </button>
+                </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
